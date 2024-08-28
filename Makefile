@@ -1,8 +1,8 @@
 install:
 	pip install --upgrade pip && \
 	pip install -r requirements.txt
-# format:
-# 	# format code
+format:
+	black *.py mylib/*.py
 # lint:
 # 	# flake8 or pylint
 # test:
