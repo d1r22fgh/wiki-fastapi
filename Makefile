@@ -3,8 +3,8 @@ install:
 	pip install -r requirements.txt
 format:
 	black *.py mylib/*.py
-# lint:
-# 	# flake8 or pylint
+lint:
+	pylint --disable=R,C *.py mylib/*.py
 # test:
 # 	# test
 # deploy:
